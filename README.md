@@ -1,4 +1,4 @@
-# Gospel As Ruby
+# Gospel In Ruby
 
 ## Usage
 

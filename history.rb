@@ -4,6 +4,16 @@ class History
   def self.tell
     God.create()
     
+    humanity = []
+    (0..100).each do
+      humanity.push(Person.new)
+    end
+    
+    humanity.each do |person|
+      person.has_sinned?
+      person.is_righteous?
+    end
+    
     jesus = God.incarnate()
     puts "God.incarnate() :: Jesus"
     
